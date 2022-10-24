@@ -1,5 +1,5 @@
 export const PopUp = () => {
-    
+
     var popup = document.getElementById('js-popup');
             if (!popup) return;
             popup.classList.add('is-show');
@@ -24,7 +24,7 @@ export const PopUp = () => {
                 <div className="closebtn">×</div>
                 <div className="poptxt">
                 Webサイトを"改善"します<br />
-                "改善"することで新たな課題を解決します
+                "改善"することで新たな課題を解決しますああああ
                 </div>
             </div>
             <div className="popbg"></div>
