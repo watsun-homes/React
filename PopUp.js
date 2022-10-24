@@ -1,6 +1,12 @@
+import { useState } from "react";
+
 export const PopUp = () => {
 
-    var popup = document.getElementById('js-popup');
+    const [show,setShow] = useState(false);
+
+
+
+            var popup = document.getElementById('js-popup');
             if (!popup) return;
             popup.classList.add('is-show');
 
@@ -19,15 +25,15 @@ export const PopUp = () => {
             
 
     return(
-        <div className="popupbox">
-            <div className="popinner">
-                <div className="closebtn">×</div>
-                <div className="poptxt">
+        <div className="popup">
+            <div className="popup-inner">
+                <div className="close-btn">×</div>
+                <p className="poptxt">
                 Webサイトを"改善"します<br />
-                "改善"することで新たな課題を解決しますああああ
-                </div>
+                "改善"することで新たな課題を解決します
+                </p>
             </div>
-            <div className="popbg"></div>
+            <div className="black-background"></div>
         </div>
     );
 }
