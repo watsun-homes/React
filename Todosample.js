@@ -7,6 +7,7 @@ import {Filter} from "./TodoFilterSample";
 export const Todosample = () => {
 
   const getKey = () => Math.random().toString(32).substring(2);
+  
   const [items,setItems] = useState([
     { key: getKey(), text: 'タスク1', done: false },
     { key: getKey(), text: 'タスク2', done: false },
