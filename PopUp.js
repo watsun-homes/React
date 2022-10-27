@@ -30,13 +30,13 @@ export const PopUp = (props) => {
         {props.showFlag ? (
             <div className="popup">
             <div className="popup-inner">
-            <button onClick={closeBtn}>Close</button>
+            <button className="close-btn" onClick={closeBtn}>×</button>
                 <p className="poptxt">
                 Webサイトを"改善"します<br />
                 "改善"することで新たな課題を解決します
                 </p>
             </div>
-            <div className="black-background"></div>
+            <button className="black-background" onClick={closeBtn}></button>
         </div>
         ) : (
         <>

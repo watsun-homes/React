@@ -14,6 +14,7 @@ code {
 }
 .site{
   position: relative;
+  height: 100vh;
 }
 .popup {
     position: absolute;
@@ -57,6 +58,10 @@ code {
     line-height: 50px;
     text-align: center;
     cursor: pointer;
+    background: none;
+    color: #fff;
+    font-size: 35px;
+    border: none;
 }
 
 .close-btn i {

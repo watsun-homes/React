@@ -1,4 +1,7 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import { PageOne } from './PageOne';
+import { PageTwo } from './PageTwo';
+import { PageThree } from './PageThree';
 
 export const TabSample = () => {
   return(
@@ -10,13 +13,13 @@ export const TabSample = () => {
     </TabList>
 
     <TabPanel>
-      <h1>HOMEです</h1>
+      <PageOne />
     </TabPanel>
     <TabPanel>
-      <h1>Aboutです</h1>
+      <PageTwo />
     </TabPanel>
      <TabPanel>
-      <h1>Contactです</h1>
+      <PageThree />
     </TabPanel>
   </Tabs>
   );
