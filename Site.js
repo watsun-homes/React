@@ -12,11 +12,8 @@ export const Site = () => {
 
     return(
         <div className="site">
-            <div className="header">
-            <div className="cat">カテゴリー</div>
             <TabSample />
-            </div>
-        <PopUp showFlag={showModal} TrueFalse={TrueFalse}/>
+            <PopUp showFlag={showModal} TrueFalse={TrueFalse}/>
         </div>
     );
 

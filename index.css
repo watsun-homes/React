@@ -14,7 +14,14 @@ code {
 }
 .site{
   position: relative;
-  height: 100vh;
+  margin:0px auto 50px;
+  background-color:#fff;
+  min-height: 100vh;
+}
+.header{
+  display: flex;
+  padding: 10px 10px;
+  justify-content: space-around;
 }
 .popup {
     position: absolute;
@@ -214,8 +221,3 @@ label span{
   color: red;
 }
 
-
-.site{
-  margin:50px auto 50px;
-  background-color:#fff;
-}
