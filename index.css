@@ -14,7 +14,7 @@ code {
 }
 .site{
   position: relative;
-  margin:0px auto 50px;
+  margin:0px auto 0px;
   background-color:#fff;
   min-height: 100vh;
 }
